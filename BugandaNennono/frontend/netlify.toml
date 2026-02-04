@@ -4,7 +4,8 @@ publish = "dist"
 
 [build.environment]
 NODE_VERSION = "18"
-VITE_API_URL = "https://buganda-backend.onrender.com"
+# Production API (Render)
+VITE_API_URL = "https://bugandan-ennono.onrender.com"
 
 [[redirects]]
 from = "/*"
