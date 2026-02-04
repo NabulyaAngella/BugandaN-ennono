@@ -50,7 +50,7 @@ export default function ManageProducts() {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:5500/api/products');
+      const response = await fetch('http://localhost:4000/api/products');
       const data = await response.json();
       setProducts(data);
       setLoading(false);
@@ -73,8 +73,8 @@ export default function ManageProducts() {
     
     try {
       const url = editingProduct 
-        ? `http://localhost:5500/api/products/${editingProduct._id}`
-        : 'http://localhost:5500/api/products';
+        ? `http://localhost:4000/api/products/${editingProduct._id}`
+        : 'http://localhost:4000/api/products';
       
       const method = editingProduct ? 'PUT' : 'POST';
       
@@ -127,7 +127,7 @@ export default function ManageProducts() {
     }
 
     try {
-      const response = await fetch(`http://localhost:5500/api/products/${id}`, {
+      const response = await fetch(`http://localhost:4000/api/products/${id}`, {
         method: 'DELETE'
       });
 

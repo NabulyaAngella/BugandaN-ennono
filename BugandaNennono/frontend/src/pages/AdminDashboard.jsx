@@ -31,7 +31,7 @@ export default function AdminDashboard() {
     // Fetch real product count from API
     const fetchStats = async () => {
       try {
-        const response = await fetch('http://localhost:5500/api/products')
+        const response = await fetch('http://localhost:4000/api/products')
         const products = await response.json()
         setStats({
           totalProducts: products.length,

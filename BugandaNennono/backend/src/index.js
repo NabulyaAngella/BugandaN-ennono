@@ -1,10 +1,11 @@
 const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv')
+const path = require('path')
 const connectDB = require('./db')
 const exampleRoutes = require('./routes/example')
 
-dotenv.config()
+dotenv.config({ path: path.resolve(__dirname, '../.env') })
 
 const app = express()
 app.use(cors())

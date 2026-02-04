@@ -83,7 +83,7 @@ export default function Shop() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:5500/api/products')
+        const response = await fetch('http://localhost:4000/api/products')
         const data = await response.json()
         setProducts(data)
         setLoading(false)
