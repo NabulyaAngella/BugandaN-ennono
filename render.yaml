@@ -3,18 +3,26 @@ services:
     name: buganda-backend
     env: node
     region: ohio
-    buildCommand: cd backend && npm install
-    startCommand: cd backend && npm start
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
     envVars:
       - key: MONGO_URI
         scope: run
         sync: false
       - key: PORT
         value: 10000
-    staticSite:
-      name: buganda-frontend
-      buildCommand: cd frontend && npm install && npm run build
-      staticPublishPath: frontend/dist
-      routes:
-        - path: /*
-          destination: /index.html
+  
+  - type: static_site
+    name: buganda-frontend
+    env: static
+    region: ohio
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - path: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        value: https://buganda-backend.onrender.com
