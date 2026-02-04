@@ -1,7 +1,7 @@
 [build]
-base = "BugandaNennono/frontend"
-command = "npm run build"
-publish = "dist"
+base = "frontend"
+command = "npm install && npm run build"
+publish = "frontend/dist"
 
 [build.environment]
 NODE_VERSION = "18"

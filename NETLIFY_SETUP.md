@@ -19,7 +19,7 @@ This guide walks you through deploying the Buganda project on Netlify.
 | **Project Name** | buganda |
 | **Branch to Deploy** | main |
 | **Base Directory** | `frontend` |
-| **Build Command** | `npm run build` |
+| **Build Command** | `npm install && npm run build` |
 | **Publish Directory** | `frontend/dist` |
 | **Functions Directory** | `netlify/functions` |
 | **Site URL** | https://buganda.netlify.app |
@@ -54,7 +54,7 @@ NODE_ENV=production
 ### 2. Configure Build Settings
 1. **Branch to deploy:** Select `main`
 2. **Base directory:** Enter `frontend`
-3. **Build command:** Enter `npm run build`
+3. **Build command:** Enter `npm install && npm run build`
 4. **Publish directory:** Enter `frontend/dist`
 5. **Functions directory:** `netlify/functions` (optional)
 
