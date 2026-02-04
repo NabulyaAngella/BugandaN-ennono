@@ -22,7 +22,7 @@ export default function Tours(){
       id: '1',
       category: 'Sacred',
       name: { en: 'Kasubi Tombs', lg: 'Amasiro g\'e Kasubi' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/kasubi-tombs.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKe2_dXrgz9IT0kDJ_8ZW3qD28ZxkF_tI8g&s',
       location: { en: 'Kasubi Hill, Kampala', lg: 'Olusozi Kasubi, Kampala' },
       description: {
         en: 'The Kasubi Tombs are the burial grounds of four Kabakas (Kings) of Buganda: Mutesa I, Mwanga II, Daudi Chwa II, and Mutesa II. This UNESCO World Heritage Site represents the finest example of traditional Ganda architecture and is considered the most significant spiritual place for the Baganda people.',
@@ -42,7 +42,7 @@ export default function Tours(){
       id: '2',
       category: 'Royal',
       name: { en: 'Lubiri Palace (Mengo Palace)', lg: 'Lubiri (Twekobe)' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/lubiri-palace.jpg',
+      image: 'https://www.arcadiasafaris.com/wp-content/uploads/2024/03/Kabakas-Palace-4.jpg',
       location: { en: 'Mengo, Kampala', lg: 'Mengo, Kampala' },
       description: {
         en: 'The Lubiri Palace, also known as Twekobe, is the official residence of the Kabaka of Buganda. Built in 1922, the palace complex includes the royal residence, ceremonial grounds, and the historic underground prison where Kabaka Mutesa II was detained during the 1966 crisis. The palace offers guided tours that reveal the turbulent history of Buganda\'s monarchy.',
@@ -62,7 +62,7 @@ export default function Tours(){
       id: '3',
       category: 'Royal',
       name: { en: 'Bulange (Buganda Parliament)', lg: 'Bulange' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/bulange.jpg',
+      image: 'https://media-cdn.tripadvisor.com/media/photo-s/18/6b/37/7c/lubiri-palace-in-mengo.jpg',
       location: { en: 'Mengo, Kampala', lg: 'Mengo, Kampala' },
       description: {
         en: 'Bulange is the administrative headquarters of the Kingdom of Buganda, housing the Lukiiko (Parliament) and the offices of the Katikkiro (Prime Minister). This impressive building was constructed in 1958 and serves as the center of Buganda\'s governance. Major kingdom events and announcements take place here.',
@@ -82,7 +82,7 @@ export default function Tours(){
       id: '4',
       category: 'Sacred',
       name: { en: 'Naggalabi (Buddo Coronation Site)', lg: 'Naggalabi (Buddo)' },
-      image: 'https://images.unsplash.com/photo-1580894732930-0babd100d356?w=800&h=400&fit=crop',
+      image: 'https://responsibletourismcompany.com/wp-content/uploads/2024/11/mini_magick20241112-32690-tr2jfn.jpg',
       location: { en: 'Buddo, Wakiso District', lg: 'Buddo, Wakiso' },
       description: {
         en: 'Naggalabi in Buddo is the sacred coronation site where all 36 Kabakas of Buganda have been crowned. This ancient hill is believed to be where Kabaka Kintu, the founder of Buganda, performed the first coronation rituals. The site features sacred shrines and holds deep spiritual significance for the kingdom.',
@@ -102,7 +102,7 @@ export default function Tours(){
       id: '5',
       category: 'Sacred',
       name: { en: 'Wamala Tombs', lg: 'Amasiro g\'e Wamala' },
-      image: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=400&fit=crop',
+      image: 'https://www.ugandasafaristours.com/wp-content/uploads/2021/11/2-750x450.jpg',
       location: { en: 'Nansana, Wakiso District', lg: 'Nansana, Wakiso' },
       description: {
         en: 'The Wamala Tombs house the remains of Kabaka Suuna II, the 29th King of Buganda who ruled from 1836 to 1856. This sacred site offers insight into pre-colonial Buganda and features traditional Ganda architecture. Kabaka Suuna II is remembered for expanding the kingdom and being the father of Kabaka Mutesa I.',
@@ -122,7 +122,7 @@ export default function Tours(){
       id: '6',
       category: 'Historical',
       name: { en: 'Uganda Museum', lg: 'Ekyuka kya Uganda' },
-      image: 'https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&h=400&fit=crop',
+      image: 'https://www.lakemburoparkuganda.com/wp-content/uploads/2022/10/Cult2-678x381-1.jpg',
       location: { en: 'Kira Road, Kampala', lg: 'Oluguudo Kira, Kampala' },
       description: {
         en: 'The Uganda Museum is the oldest and largest museum in East Africa, featuring extensive collections of Buganda cultural artifacts, traditional musical instruments, archaeological findings, and ethnographic displays. The museum offers valuable insights into the history and culture of Buganda and Uganda as a whole.',
@@ -142,7 +142,7 @@ export default function Tours(){
       id: '7',
       category: 'Historical',
       name: { en: 'Namugongo Martyrs Shrine', lg: 'Ekifo ky\'Abawoofuzi e Namugongo' },
-      image: 'https://images.unsplash.com/photo-1545987796-200677ee1011?w=800&h=400&fit=crop',
+      image: 'https://www.safaris-uganda.com/wp-content/uploads/2023/04/namugongo.jpg',
       location: { en: 'Namugongo, Kampala', lg: 'Namugongo, Kampala' },
       description: {
         en: 'The Namugongo Martyrs Shrine commemorates the 45 Anglican and Catholic martyrs who were executed between 1885 and 1887 during the reign of Kabaka Mwanga II. The shrine attracts millions of pilgrims annually, especially on June 3rd (Martyrs\' Day). It represents an important chapter in Buganda\'s religious history.',
@@ -162,7 +162,7 @@ export default function Tours(){
       id: '8',
       category: 'Natural',
       name: { en: 'Ssese Islands', lg: 'Bizinga by\'e Ssese' },
-      image: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&h=400&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbQpcgFa_BfxE2D37E0BL28ymt1J48UI0ofQ&s',
       location: { en: 'Lake Victoria, Kalangala District', lg: 'Ennyanja Nalubaale, Kalangala' },
       description: {
         en: 'The Ssese Islands are a group of 84 islands in Lake Victoria (Nalubaale), forming one of Buganda\'s 18 counties. These tropical islands offer pristine beaches, lush rainforests, and unique wildlife. Historically, the islands were important for the Kabaka\'s royal fleet and remain culturally significant to Buganda.',
@@ -182,7 +182,7 @@ export default function Tours(){
       id: '9',
       category: 'Natural',
       name: { en: 'Kabaka\'s Lake', lg: 'Ennyanja ya Kabaka' },
-      image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=400&fit=crop',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Kabaka%27s_lake_in_Uganda.jpg',
       location: { en: 'Ndeeba, Kampala', lg: 'Ndeeba, Kampala' },
       description: {
         en: 'Kabaka\'s Lake is an artificial lake created by Kabaka Mwanga II in the late 19th century for defense and water supply purposes. Today, it is being developed as a recreational and eco-tourism destination. The lake covers about 2.5 square kilometers and is the largest man-made lake in East Africa.',
@@ -202,7 +202,7 @@ export default function Tours(){
       id: '10',
       category: 'Historical',
       name: { en: 'Muteesa I Royal University', lg: 'Yunivaasite ya Muteesa I' },
-      image: 'https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=400&fit=crop',
+      image: 'https://masakacity.go.ug/sites/default/files/2023-04/The_Administration_Block_viewed_from_the_Engineering_facility._This_block_houses_the_VC%2C_DVC_and_other_administrative_offices.jpg',
       location: { en: 'Kirumba, Masaka Road', lg: 'Kirumba, Oluguudo Masaka' },
       description: {
         en: 'Muteesa I Royal University is a premier institution established by the Kingdom of Buganda in 2007. Named after Kabaka Mutesa I, the university represents Buganda\'s commitment to education and development. The beautiful campus blends modern facilities with traditional Ganda architectural elements.',

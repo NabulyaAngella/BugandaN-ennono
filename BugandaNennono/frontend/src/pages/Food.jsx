@@ -20,7 +20,7 @@ export default function Food(){
       id: 1,
       name: { en: 'Matooke', lg: 'Matooke' },
       category: 'staples',
-      image: 'https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7fcycdRAFmLY8gRbgKUoHayh25-4jR4kBQw&s',
       shortDesc: { en: 'The signature dish of Buganda - steamed green bananas', lg: 'Emmere enkulu ya Buganda - matooke agafumbibwa' },
       description: { 
         en: 'Matooke is the most iconic and beloved dish in Buganda. Made from a specific variety of green bananas called "matooke" (different from dessert bananas), this dish is central to Baganda culture and identity. The bananas are peeled, wrapped in banana leaves, and steamed until soft, then mashed to create a smooth, starchy staple.',
@@ -42,8 +42,8 @@ export default function Food(){
     {
       id: 2,
       name: { en: 'Luwombo', lg: 'Luwombo' },
-      category: 'meats',
-      image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800',
+      category: 'sauces',
+      image: 'https://nexusmedia.ug/wp-content/uploads/2023/07/chicken-luwombo.webp',
       shortDesc: { en: 'Royal delicacy steamed in banana leaves', lg: 'Ekirungo ky\'obwakabaka ekifumbibwa mu bisanja' },
       description: { 
         en: 'Luwombo is a prestigious royal dish that was traditionally reserved for the Kabaka, royal family, and honoured guests. It consists of meat (chicken, beef, or goat), fish, or groundnut sauce wrapped in banana leaves and slowly steamed. The banana leaves impart a unique, earthy flavor that cannot be replicated.',
@@ -66,7 +66,7 @@ export default function Food(){
       id: 3,
       name: { en: 'Groundnut Sauce (Binyebwa)', lg: 'Obwogero (Binyebwa)' },
       category: 'sauces',
-      image: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800',
+      image: 'https://i.ytimg.com/vi/n-YesO-3OE0/maxresdefault.jpg',
       shortDesc: { en: 'Rich peanut sauce - the most common accompaniment', lg: 'Ssobo y\'ebinyebwa - ekisanyuso ekikozesebwa ennyo' },
       description: { 
         en: 'Groundnut sauce (also called peanut sauce or binyebwa) is the most popular accompaniment to matooke in Buganda. Made from roasted groundnuts that are pounded and cooked into a thick, creamy sauce, it provides essential protein and rich flavor to meals.',
@@ -89,7 +89,7 @@ export default function Food(){
       id: 4,
       name: { en: 'Posho (Kawunga)', lg: 'Posho (Kawunga)' },
       category: 'staples',
-      image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800',
+      image: 'https://memoiruganda.com/wp-content/uploads/2023/11/posho-kawunga.jpg',
       shortDesc: { en: 'Cornmeal porridge - a filling staple food', lg: 'Obuzzi bwa kasooli - emmere ekutta enjala' },
       description: { 
         en: 'Posho (also called kawunga) is a thick cornmeal porridge that is a staple across East Africa. While not originally from Buganda, it has become an integral part of the Baganda diet due to its affordability and filling nature.',
@@ -112,7 +112,7 @@ export default function Food(){
       id: 5,
       name: { en: 'Nsenene (Grasshoppers)', lg: 'Ensenene' },
       category: 'delicacies',
-      image: 'https://images.unsplash.com/photo-1566408669374-5a6d5dca1a62?w=800',
+      image: 'https://i0.wp.com/observer.ug/wp-content/uploads/2017/11/Deep-fried-nsenene.jpg?fit=760%2C507&ssl=1',
       shortDesc: { en: 'Seasonal delicacy - fried grasshoppers', lg: 'Ekirungo ky\'ekiseera - ensenene ezisikiridde' },
       description: { 
         en: 'Nsenene (grasshoppers) are a beloved seasonal delicacy in Buganda, appearing during the rainy seasons (typically November-December and March-May). These protein-rich insects are caught using light traps at night and are considered a genuine treat.',
@@ -135,7 +135,7 @@ export default function Food(){
       id: 6,
       name: { en: 'Nswaa (White Ants)', lg: 'Enswa' },
       category: 'delicacies',
-      image: 'https://images.unsplash.com/photo-1566408669374-5a6d5dca1a62?w=800',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsnlNJHygnnb9MR-6qM1qZirPaRSRruSUUhg&s',
       shortDesc: { en: 'Flying termites - another seasonal treat', lg: 'Enswa - ekirungo ekirala eky\'ekiseera' },
       description: { 
         en: 'Nswaa (white ants or flying termites) are another cherished seasonal delicacy. They emerge from their mounds after heavy rains, usually in the early morning. Like grasshoppers, they are high in protein and fats.',
@@ -158,7 +158,7 @@ export default function Food(){
       id: 7,
       name: { en: 'Katogo', lg: 'Katogo' },
       category: 'staples',
-      image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwqrS5G2hygMYffuzBVLrrc8kzUHIR6J6Hdg&s',
       shortDesc: { en: 'Mixed breakfast dish with matooke and offals', lg: 'Emmere y\'akasooka etabiddwa ne matooke n\'ebyenda' },
       description: { 
         en: 'Katogo is a popular breakfast dish in Buganda. It consists of matooke cooked together with beans, groundnuts, meat, or offals (tripe, liver, or intestines) in one pot, creating a hearty, filling meal.',
@@ -181,7 +181,7 @@ export default function Food(){
       id: 8,
       name: { en: 'Sweet Potatoes (Lumonde)', lg: 'Lumonde' },
       category: 'staples',
-      image: 'https://images.unsplash.com/photo-1596097635121-14b63b7a7451?w=800',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvjYf6iEXiCINd81PSs-dU-l9xRmiqdIe_og&s',
       shortDesc: { en: 'Roasted or boiled sweet potatoes', lg: 'Lumonde enzikidde oba enzitidde' },
       description: { 
         en: 'Sweet potatoes (lumonde) are a popular staple food in Buganda, often eaten for breakfast or as a snack. They can be boiled, roasted over charcoal, or fried. Different varieties have different colors and sweetness levels.',
@@ -204,7 +204,7 @@ export default function Food(){
       id: 9,
       name: { en: 'Cassava (Muwogo)', lg: 'Muwogo' },
       category: 'staples',
-      image: 'https://images.unsplash.com/photo-1598376308597-f7e15a3c4e04?w=800',
+      image: 'https://pbs.twimg.com/media/EdolroPXsAc9T6c.jpg',
       shortDesc: { en: 'Versatile root vegetable - boiled, fried, or dried', lg: 'Emmere y\'ekikolo ey\'engeri nnyingi - enzitidde, enzikidde, oba enzalidde' },
       description: { 
         en: 'Cassava (muwogo) is a versatile root crop widely consumed in Buganda. It can be prepared in multiple ways: boiled and eaten with sauce, dried and ground into flour, or fried as chips. It\'s an important food security crop.',
@@ -227,7 +227,7 @@ export default function Food(){
       id: 10,
       name: { en: 'Tonto (Banana Beer)', lg: 'Omwenge gw\'Ebitooke' },
       category: 'drinks',
-      image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/A_big_calabash_%28Ekita%29_02.jpg',
       shortDesc: { en: 'Traditional banana beer', lg: 'Omwenge gw\'ekika egw\'ebitooke' },
       description: { 
         en: 'Tonto is a traditional alcoholic beverage made from fermented bananas. It has been brewed in Buganda for centuries and remains an important cultural drink, especially for ceremonies and celebrations.',
@@ -250,7 +250,7 @@ export default function Food(){
       id: 11,
       name: { en: 'Bushera', lg: 'Obushera' },
       category: 'drinks',
-      image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800',
+      image: 'https://vendor.mrembomart.com/wp-content/uploads/2024/03/bessa-Bushera-330ml.png',
       shortDesc: { en: 'Fermented millet beverage', lg: 'Ekyokunywa ky\'obulo ekifuuse' },
       description: { 
         en: 'Bushera is a nutritious fermented beverage made from millet or sorghum flour. It can be non-alcoholic (lightly fermented) or alcoholic (longer fermentation). It\'s rich in probiotics and has a slightly sour, refreshing taste.',
@@ -273,7 +273,7 @@ export default function Food(){
       id: 12,
       name: { en: 'Nakati (African Nightshade)', lg: 'Enakati' },
       category: 'sauces',
-      image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800',
+      image: 'https://newvision-media.s3.amazonaws.com/cms/5aaa9de2-ab17-464b-bdc4-ecfda7f94fe5.jpg',
       shortDesc: { en: 'Nutritious leafy green vegetable', lg: 'Enva y\'ebikoola ey\'amaanyi' },
       description: { 
         en: 'Nakati (Solanum scabrum) is a popular leafy green vegetable in Buganda. It\'s highly nutritious, rich in iron and vitamins, and has a slightly bitter taste that is beloved in traditional cuisine.',

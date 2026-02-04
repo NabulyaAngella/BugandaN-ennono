@@ -2,6 +2,66 @@ import React from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import { Link } from 'react-router-dom'
 
+// Inline SVG icons (small, dependency-free)
+const CrownIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M5 11.5L2 7l5 1 3-4 4 6 3-4 4 3-6 4H5z" />
+  </svg>
+)
+
+const BuildingIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className={className}>
+    <path d="M3 21h18V7l-9-4-9 4v14zm7-6h2v2h-2v-2zm0-4h2v2h-2V11zm-4 4h2v2H6v-2z" />
+  </svg>
+)
+
+const SwordIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M21.7 2.3l-2-2-6.4 6.4-7.7 7.7 2 2 7.7-7.7L21.7 2.3zM3 21l-1 1 2 0 1-1-2-0z" />
+  </svg>
+)
+
+const MapIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M3 6l6-2 6 2 6-2v13l-6 2-6-2-6 2V6z" />
+  </svg>
+)
+
+const StarIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.788 1.402 8.168L12 18.896 4.664 23.166l1.402-8.168L.132 9.21l8.2-1.192L12 .587z" />
+  </svg>
+)
+
+const ScrollIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M4 4v14a2 2 0 002 2h12v-2H6V4H4zM20 2h-8v2h8v14h2V4a2 2 0 00-2-2z" />
+  </svg>
+)
+
+const ProhibitIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm5.657 13.657L10.343 5.343 5.343 10.343 13.657 18.657 17.657 15.657z" />
+  </svg>
+)
+
+const PartyIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 2l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" />
+  </svg>
+)
+
+const GlobeIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 17.93V20h-2v-.07A8.001 8.001 0 014.07 13H6v-2H4.07A8.001 8.001 0 0111 4.07V6h2V4.07A8.001 8.001 0 0119.93 11H18v2h1.93A8.001 8.001 0 0113 19.93z" />
+  </svg>
+)
+
+const HourglassIcon = ({ className = 'w-8 h-8 text-white' }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M6 2v6.586L10.586 12 6 16.586V23h12v-6.414L13.414 12 18 7.414V2H6z" />
+  </svg>
+)
 export default function History(){
   const { t } = useLanguage()
 
@@ -13,7 +73,7 @@ export default function History(){
         en: 'Kabaka Kintu, the founding king, arrived in the region from the east, possibly near Mount Elgon. After defeating the local ruler Bemba Musota, Kintu established the new kingdom and became Ssaabataka, head of all clan leaders.',
         lg: 'Kabaka Kintu, kabaka eyatandise, yajja mu kitundu kino okuva ku buvanjuba, oyinza okuba okumpi n\'Olusozi Elgon. Oluvannyuma lw\'okuwangula omufuzi w\'eyo Bemba Musota, Kintu yateekawo obwakabaka obupya era n\'afuuka Ssaabataka, omukulu w\'abataka bonna.'
       },
-      icon: '👑'
+      icon: <CrownIcon />
     },
     {
       era: { en: 'Early Kingdom', lg: 'Obwakabaka Obwasooka' },
@@ -22,7 +82,7 @@ export default function History(){
         en: 'Buganda began as a small nucleus of counties: Busiro, Mawokota, and Kyaddondo. These three counties remain central to Buganda\'s identity and house many important cultural sites.',
         lg: 'Buganda yatandika nga kitundu kitono eky\'amasaza: Busiro, Mawokota, ne Kyaddondo. Amasaza gano gasatu gakyali ga nsonga mu buwangwa bwa Buganda era galimu ebifo bingi eby\'obuwangwa eby\'omugaso.'
       },
-      icon: '🏛️'
+      icon: <MapIcon />
     },
     {
       era: { en: '17th Century', lg: 'Ekisera ky\'emyaka 1600' },
@@ -31,7 +91,7 @@ export default function History(){
         en: 'Under Kabaka Kateregga, Buganda annexed Singo, Gomba, Butambala, and Kyaggwe from the declining Bunyoro-Kitara Empire. This marked the beginning of Buganda\'s rise as a regional power.',
         lg: 'Wansi wa Kabaka Kateregga, Buganda yayingiza Singo, Gomba, Butambala, ne Kyaggwe okuva mu Bwakabaka bwa Bunyoro-Kitara obwali bugwa. Kino kyalaga entandikwa y\'okweyongera kwa Buganda okufuuka obuyinza obw\'ekitundu.'
       },
-      icon: '⚔️'
+      icon: <SwordIcon />
     },
     {
       era: { en: '18th Century', lg: 'Ekisera ky\'emyaka 1700' },
@@ -40,7 +100,7 @@ export default function History(){
         en: 'Kabaka Jjunju led successful campaigns into Buddu and Kooki, further expanding Buganda\'s territory southward toward present-day Tanzania.',
         lg: 'Kabaka Jjunju yakulembera ebikolwa ebyaakuwanguza mu Buddu ne Kooki, nga ayongera okweyongeza ettaka lya Buganda okudda mu bukiikakkono okutuuka mu Tanzania ey\'olwoleewo.'
       },
-      icon: '🗺️'
+      icon: <MapIcon />
     },
     {
       era: { en: '19th Century', lg: 'Ekisera ky\'emyaka 1800' },
@@ -49,7 +109,7 @@ export default function History(){
         en: 'Kabaka Mawanda captured Bugerere, Bulemeezi, and Kyaggwe. Later, with British support, Kabaka Muteesa I secured Buyaga, Bugangaizi, and Bululi. Buganda became the most powerful kingdom in the Great Lakes region.',
         lg: 'Kabaka Mawanda yakwata Bugerere, Bulemeezi, ne Kyaggwe. Oluvannyuma, n\'obuyambi bw\'Abungereza, Kabaka Muteesa I yakakasa Buyaga, Bugangaizi, ne Bululi. Buganda yafuuka obwakabaka obw\'amaanyi ennyo mu kitundu ky\'Ennyanja Ennene.'
       },
-      icon: '🌟'
+      icon: <StarIcon />
     },
     {
       era: { en: '1900', lg: '1900' },
@@ -58,7 +118,7 @@ export default function History(){
         en: 'Buganda signed a formal agreement with the British colonial government, known as the Buganda Agreement of 1900. This treaty recognised Buganda as a constitutional monarchy and allowed it considerable autonomy in local governance.',
         lg: 'Buganda yasainyiza endagaano n\'gavumenti ya bunnansi ya Bungereza, emanyiddwa ng\'Endagaano ya Buganda eya 1900. Endagaano eno yatendereza Buganda ng\'obwakabaka obw\'etteeka era n\'ekkiriza obwetongole obunene mu bufuzi bw\'eyo.'
       },
-      icon: '📜'
+      icon: <ScrollIcon />
     },
     {
       era: { en: '1966', lg: '1966' },
@@ -67,7 +127,7 @@ export default function History(){
         en: 'The Ugandan government under Milton Obote abolished all traditional kingdoms, including Buganda. Kabaka Muteesa II was forced into exile in the United Kingdom, where he later died.',
         lg: 'Gavumenti ya Uganda wansi wa Milton Obote yasazaamu obwakabaka bwonna obw\'empisa, omuli Buganda. Kabaka Muteesa II yawalirizibwa okugenda mu buwambe mu Bungereza, w\'oluvannyuma n\'afiira.'
       },
-      icon: '⛔'
+      icon: <ProhibitIcon />
     },
     {
       era: { en: '1993', lg: '1993' },
@@ -76,7 +136,7 @@ export default function History(){
         en: 'Kabaka Ronald Muwenda Mutebi II was enthroned on 31st July 1993, becoming the 36th King of Buganda. His coronation marked the restoration of the Buganda Kingdom after 27 years of abolition.',
         lg: 'Kabaka Ronald Muwenda Mutebi II yatikkibwa nga 31 Julaayi 1993, n\'afuuka Kabaka ow\'36 wa Buganda. Okutikkibwa kwe kwalaga okuzibwa kw\'Obwakabaka bwa Buganda oluvannyuma lw\'emyaka 27 ng\'obusaziddwamu.'
       },
-      icon: '🎉'
+      icon: <PartyIcon />
     },
     {
       era: { en: 'Present Day', lg: 'Olweelero' },
@@ -85,7 +145,7 @@ export default function History(){
         en: 'Today, Buganda stands as a proud custodian of heritage, tradition, and modern progress. The kingdom continues to champion unity, development, and the preservation of its people\'s values in a rapidly changing world.',
         lg: 'Olweelero, Buganda eyimirira ng\'omukuumi ow\'amalala, empisa, n\'okwekulaakulanya okwa kaakati. Obwakabaka bukyakulembera obumu, enkulaakulana, n\'okukuuma emizizo gy\'abantu baabwo mu nsi ekyuka mangu.'
       },
-      icon: '🌍'
+      icon: <GlobeIcon />
     }
   ]
 
@@ -93,22 +153,22 @@ export default function History(){
     {
       title: { en: 'The Kabaka (King)', lg: 'Kabaka' },
       description: { en: 'The Kabaka is the cultural head of Buganda, symbolizing unity, identity, and heritage. The current Kabaka is Ronald Muwenda Mutebi II, the 36th king.', lg: 'Kabaka ye mukulu w\'obuwangwa bwa Buganda, akiikirira obumu, obuwangwa, n\'obusika. Kabaka akulira kati ye Ronald Muwenda Mutebi II, kabaka ow\'36.' },
-      icon: '👑'
+      icon: <CrownIcon />
     },
     {
       title: { en: 'The Katikkiro (Prime Minister)', lg: 'Katikkiro' },
       description: { en: 'The Kabaka delegates executive authority to the Katikkiro, who heads the Cabinet of Ministers. The current Katikkiro is Charles Peter Mayiga.', lg: 'Kabaka awa obuyinza bw\'okufuga Katikkiro, akulira Kabineti y\'Abaminisita. Katikkiro akulira kati ye Charles Peter Mayiga.' },
-      icon: '🏛️'
+      icon: <BuildingIcon />
     },
     {
       title: { en: 'The Lukiiko (Parliament)', lg: 'Lukiiko' },
       description: { en: 'Legislative oversight is conducted by the Lukiiko, which works closely with the Cabinet to administer the Kingdom\'s affairs across its 18 counties.', lg: 'Okwetegereza kw\'amateeka kukolebwa Lukiiko, erikola awamu ne Kabineti okufuga ensonga z\'Obwakabaka mu masaza gaayo 18.' },
-      icon: '⚖️'
+      icon: <StarIcon />
     },
     {
       title: { en: 'The Abataka (Clan Heads)', lg: 'Abataka' },
       description: { en: 'The Kabaka mandates clan heads to uphold the values, customs, and traditions of the Baganda, ensuring that cultural heritage remains central to daily life.', lg: 'Kabaka awa abataka okulinda emizizo, empisa, n\'eby\'obuwangwa bya Baganda, nga bakakasa nti obusika bw\'obuwangwa busigala kya nsonga mu bulamu bwa bulijjo.' },
-      icon: '🎭'
+      icon: <PartyIcon />
     }
   ]
 
@@ -174,7 +234,7 @@ export default function History(){
         {/* Origins Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl">📖</span>
+            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl"><ScrollIcon className="w-6 h-6 text-royal-600" /></span>
             {t({ en: 'Origins and Founding', lg: 'Ensibuko n\'Okutandika' })}
           </h2>
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
@@ -196,7 +256,7 @@ export default function History(){
         {/* Timeline Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl">⏳</span>
+            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl"><HourglassIcon className="w-6 h-6 text-royal-600" /></span>
             {t({ en: 'Historical Timeline', lg: 'Oluyimba lw\'Ebyafaayo' })}
           </h2>
           <div className="relative">
@@ -223,7 +283,7 @@ export default function History(){
         {/* Governance Structure */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl">🏛️</span>
+            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl"><BuildingIcon className="w-6 h-6 text-royal-600" /></span>
             {t({ en: 'Governance Structure', lg: 'Enkola y\'Obufuzi' })}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -246,7 +306,7 @@ export default function History(){
         {/* Counties */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl">🗺️</span>
+            <span className="w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center text-2xl"><MapIcon className="w-6 h-6 text-royal-600" /></span>
             {t({ en: 'The 18 Counties (Amasaza)', lg: 'Amasaza 18' })}
           </h2>
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">

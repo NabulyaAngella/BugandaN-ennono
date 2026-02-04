@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../context/LanguageContext'
-
+import  kabakaImage  from '../images/kabaka.jpg'
 export default function Home(){
   const { t } = useLanguage()
 
@@ -52,9 +52,7 @@ export default function Home(){
           {/* Card 1: Kabaka */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
             <div className="h-48 bg-gradient-to-br from-royal-500 to-royal-700 flex items-center justify-center">
-              <svg className="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
-              </svg>
+              <img src={kabakaImage} alt="Kabaka" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-3">
@@ -72,9 +70,7 @@ export default function Home(){
           {/* Card 2: Language */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
             <div className="h-48 bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center">
-              <svg className="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M7 2a1 1 0 011 1v1h3a1 1 0 110 2H9.578a18.87 18.87 0 01-1.724 4.78c.29.354.596.696.914 1.026a1 1 0 11-1.44 1.389c-.188-.196-.373-.396-.554-.6a19.098 19.098 0 01-3.107 3.567 1 1 0 01-1.334-1.49 17.087 17.087 0 003.13-3.733 18.992 18.992 0 01-1.487-2.494 1 1 0 111.79-.89c.234.47.489.928.764 1.372.417-.934.752-1.913.997-2.927H3a1 1 0 110-2h3V3a1 1 0 011-1zm6 6a1 1 0 01.894.553l2.991 5.982a.869.869 0 01.02.037l.99 1.98a1 1 0 11-1.79.895L15.383 16h-4.764l-.724 1.447a1 1 0 11-1.788-.894l.99-1.98.019-.038 2.99-5.982A1 1 0 0113 8zm-1.382 6h2.764L13 11.236 11.618 14z" clipRule="evenodd" />
-              </svg>
+             <img src="https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/06/ed/bc/06edbcf4-ab4f-ba18-fe98-94de7b43e64b/Luganda.png/1200x900wz.jpg" alt="" />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-3">
@@ -92,9 +88,7 @@ export default function Home(){
           {/* Card 3: Traditions */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
             <div className="h-48 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center">
-              <svg className="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
-              </svg>
+             <img src="https://dagiztravel.com/wp-content/uploads/2025/02/ug-males.jpg" alt="" />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-3">

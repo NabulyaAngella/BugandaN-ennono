@@ -21,7 +21,7 @@ export default function Ceremonies(){
       id: '1',
       category: 'Royal',
       title: { en: 'Coronation Ceremony', lg: 'Okukkaaza Kabaka' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/kabaka-coronation.jpg',
+      image: 'https://www.budgetgorillatrekking.com/wp-content/uploads/2024/12/coronation2.jpg',
       date: { en: 'Varies (Major royal event)', lg: 'Eteekawo (Ekifo ky\'obukulu)' },
       location: { en: 'Naggalabi, Buddo', lg: 'Naggalabi, Buddo' },
       description: {
@@ -43,7 +43,7 @@ export default function Ceremonies(){
       id: '2',
       category: 'Life',
       title: { en: 'Marriage Customs (Okwanjula)', lg: 'Okwanjula' },
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=400&fit=crop',
+      image: 'https://i0.wp.com/observer.ug/wp-content/uploads/2019/08/Kabaka-wedding.jpg?fit=760%2C491&ssl=1',
       date: { en: 'Throughout the year', lg: 'Buli omwaka' },
       location: { en: 'Family homes and community venues', lg: 'Mu masooli n\'ebifo by\'omukutu' },
       description: {
@@ -65,7 +65,7 @@ export default function Ceremonies(){
       id: '3',
       category: 'Life',
       title: { en: 'Funeral Rites (Okuzikka)', lg: 'Okuzikka' },
-      image: 'https://images.unsplash.com/photo-1531279550271-23c2a92f2cbc?w=800&h=400&fit=crop',
+      image: 'https://ugandaradionetwork.net/a/helpers/image.php?fileId=135855&m=0&w=1200&h=600',
       date: { en: 'Upon death (varies by status)', lg: 'Okufa okufuddemu' },
       location: { en: 'Family compounds and burial grounds', lg: 'Mu masooli n\'ebifo by\'omuterekeza' },
       description: {
@@ -87,7 +87,7 @@ export default function Ceremonies(){
       id: '4',
       category: 'Life',
       title: { en: 'Naming Ceremonies (Okuwala Abaana)', lg: 'Okuwala Abaana' },
-      image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=400&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsY2Kt21NOvlFGTbkA-wOff0gpFZAAQnq10Q&s',
       date: { en: 'Weeks after birth', lg: 'Essita ze kulimva' },
       location: { en: 'Family homes and shrines', lg: 'Mu masooli n\'ebifo by\'abakubira' },
       description: {
@@ -109,7 +109,7 @@ export default function Ceremonies(){
       id: '5',
       category: 'Sacred',
       title: { en: 'Kasubi Tombs', lg: 'Amasiro g\'e Kasubi' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/kasubi-tombs.jpg',
+      image: 'https://observer.ug/wp-content/uploads/2024/12/Kasubi-tombs-restored.jpg',
       date: { en: 'Ancient site, ongoing ceremonies', lg: 'Ekifo ekyakuuma, emikolo egitera' },
       location: { en: 'Kasubi, Kampala', lg: 'Kasubi, Kampala' },
       description: {
@@ -132,7 +132,7 @@ export default function Ceremonies(){
       id: '6',
       category: 'Royal',
       title: { en: 'Kabaka\'s Birthday Run', lg: 'Okuzibuka kwa Kabaka' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/kabaka-run.jpg',
+      image: 'https://www.watchdoguganda.com/wp-content/uploads/2022/07/IMG-20220704-WA0001.jpg',
       date: { en: 'April (Annually)', lg: 'Apuli (Buli mwaka)' },
       location: { en: 'Kampala and surrounding areas', lg: 'Kampala n\'ebitundu ebyetoolodde' },
       description: {
@@ -154,7 +154,7 @@ export default function Ceremonies(){
       id: '7',
       category: 'Cultural',
       title: { en: 'Buganda Kingdom Day (Kabaka\'s Coronation Anniversary)', lg: 'Olunaku lwa Buganda' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/buganda-day.jpg',
+      image: 'https://www.budgetgorillatrekking.com/wp-content/uploads/2024/12/coronation2.jpg',
       date: { en: 'July 31 (Annually)', lg: '31 Julaayi (Buli mwaka)' },
       location: { en: 'Bulange, Mengo', lg: 'Bulange, Mengo' },
       description: {
@@ -176,7 +176,7 @@ export default function Ceremonies(){
       id: '8',
       category: 'Life',
       title: { en: 'Twins Ceremony (Okwalula Abalongo)', lg: 'Okwalula Abalongo' },
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&h=400&fit=crop',
+      image: 'https://www.singingwells.org/wp-content/uploads/2015/11/IMG_1476-800x600.jpg',
       date: { en: 'After birth of twins', lg: 'Oluvannyuma lw\'okuzaala abalongo' },
       location: { en: 'Family home', lg: 'Eka' },
       description: {
@@ -198,7 +198,7 @@ export default function Ceremonies(){
       id: '9',
       category: 'Life',
       title: { en: 'Heir Ceremony (Okwalula Omusika)', lg: 'Okwalula Omusika' },
-      image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&h=400&fit=crop',
+      image: 'https://nilepost.co.ug/nm-intranet-login/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-18-at-8.16.20-PM.jpeg',
       date: { en: 'After funeral rites', lg: 'Oluvannyuma lw\'okuzikka' },
       location: { en: 'Family compound', lg: 'Eka y\'omuka' },
       description: {
@@ -220,7 +220,7 @@ export default function Ceremonies(){
       id: '10',
       category: 'Sacred',
       title: { en: 'Lubiri Palace (Twekobe)', lg: 'Lubiri (Twekobe)' },
-      image: 'https://buganda.or.ug/wp-content/uploads/2024/01/lubiri-palace.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKt5dvGMrhIhHguD_GR_UN0Af6BqSMQbQ7nQ&s',
       date: { en: 'Historical site', lg: 'Ekifo ky\'ebyafaayo' },
       location: { en: 'Mengo, Kampala', lg: 'Mengo, Kampala' },
       description: {
@@ -242,7 +242,7 @@ export default function Ceremonies(){
       id: '11',
       category: 'Sacred',
       title: { en: 'Wamala Tombs', lg: 'Amasiro g\'e Wamala' },
-      image: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=400&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_nsgMzbNqBu464Jqo6V58JR4JsRO8JGFILg&s',
       date: { en: 'Historical site', lg: 'Ekifo ky\'ebyafaayo' },
       location: { en: 'Nansana, Wakiso District', lg: 'Nansana, Wakiso' },
       description: {
@@ -264,7 +264,7 @@ export default function Ceremonies(){
       id: '12',
       category: 'Sacred',
       title: { en: 'Naggalabi (Buddo Coronation Site)', lg: 'Naggalabi (Buddo)' },
-      image: 'https://images.unsplash.com/photo-1580894732930-0babd100d356?w=800&h=400&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW95w8F6f6n7x4OYolQ2AOtlBJP06THmWDTQ&s',
       date: { en: 'Coronation ceremonies', lg: 'Emikolo gy\'okutikkibwa' },
       location: { en: 'Buddo, Wakiso District', lg: 'Buddo, Wakiso' },
       description: {
@@ -286,7 +286,7 @@ export default function Ceremonies(){
       id: '13',
       category: 'Cultural',
       title: { en: 'Barkcloth Making (Okukomaga Olubugo)', lg: 'Okukomaga Olubugo' },
-      image: 'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=800&h=400&fit=crop',
+      image: 'https://img.youtube.com/vi/uhznFtHhkBo/0.jpg',
       date: { en: 'Year-round tradition', lg: 'Empisa ey\'omwaka gwonna' },
       location: { en: 'Various locations in Buganda', lg: 'Ebifo eby\'enjawulo mu Buganda' },
       description: {
@@ -308,7 +308,7 @@ export default function Ceremonies(){
       id: '14',
       category: 'Cultural',
       title: { en: 'Traditional Music & Dance (Bakisimba, Nankasa)', lg: 'Ennyimba n\'Okuzina (Bakisimba, Nankasa)' },
-      image: 'https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800&h=400&fit=crop',
+      image: 'https://www.monitor.co.ug/resource/image/1608314/landscape_ratio3x2/1200/800/86cd9224eec774c83787a91226028cef/vb/ent01-pic.jpg',
       date: { en: 'Cultural events and celebrations', lg: 'Emikolo gy\'obuwangwa n\'okukuza' },
       location: { en: 'Throughout Buganda', lg: 'Buganda yonna' },
       description: {
