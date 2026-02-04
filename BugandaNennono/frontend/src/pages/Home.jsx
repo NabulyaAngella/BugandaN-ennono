@@ -15,7 +15,7 @@ export default function Home(){
           </h1>
           <p className="text-xl md:text-2xl mb-8 leading-relaxed">
             {t({ 
-              en: 'Discover the rich heritage, traditions, and culture of The Royal Clan',
+              en: 'Discover the rich heritage, traditions, and culture of Buganda N\'ennono',
               lg: 'Zuula obulombolombo, obuwangwa n\'empisa z\'Obwakabaka bwa Buganda'
             })}
           </p>
@@ -33,7 +33,7 @@ export default function Home(){
       {/* Introduction */}
       <section className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">
-          {t({ en: 'The Royal Clan', lg: 'Abalangira' })}
+          {t({ en: 'Buganda N\'ennono', lg: 'Abalangira' })}
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed">
           {t({
@@ -126,7 +126,7 @@ export default function Home(){
                 {t({ en: 'Foundation of Buganda', lg: 'Okusimbibwa kwa Buganda' })}
               </h4>
               <p className="text-gray-600">
-                {t({ en: 'The Royal Clan was established by Kato Kintu, the first Kabaka.', lg: 'Obwakabaka bwa Buganda bwasimbibwa Kato Kintu, Kabaka ow\'olubereberye.' })}
+                {t({ en: 'Buganda N\'ennono was established by Kato Kintu, the first Kabaka.', lg: 'Obwakabaka bwa Buganda bwasimbibwa Kato Kintu, Kabaka ow\'olubereberye.' })}
               </p>
             </div>
           </div>

@@ -80,11 +80,11 @@ export default function MainLayout(){
             {/* Logo & Brand */}
             <Link to="/" className="flex items-center gap-3 group">
               <div className="w-14 h-14 rounded-lg overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow">
-                <img src={logoImg} alt={t({ en: 'The Royal Clan', lg: 'Abalangira' })} className="w-full h-full object-cover" />
+                <img src={logoImg} alt={t({ en: 'Buganda N\'ennono', lg: 'Buganda Nennono' })} className="w-full h-full object-cover" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 leading-tight">
-                  {t({ en: 'The Royal Clan', lg: 'Abalangira' })}
+                  {t({ en: 'Buganda N\'ennono', lg: 'Buganda Nennono' })}
                 </h1>
                 <p className="text-xs text-gray-500">
                   {t({ en: 'Preserving Heritage & Culture', lg: 'Tukuuma Obulombolombo' })}
@@ -474,7 +474,7 @@ export default function MainLayout(){
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-white font-bold text-lg mb-4">
-                {t({ en: 'The Royal Clan', lg: 'Abalangira' })}
+                {t({ en: "Buganda N'ennono", lg: 'Buganda Nennono' })}
               </h3>
               <p className="text-sm leading-relaxed">
                 {t({ 
@@ -523,7 +523,7 @@ export default function MainLayout(){
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
             <p>
-              © {new Date().getFullYear()} {t({ en: 'The Royal Clan. All rights reserved.', lg: 'Abalangira. Eddembe lyonna.' })} | 
+              © {new Date().getFullYear()} {t({ en: 'Buganda N\'ennono. All rights reserved.', lg: 'Abalangira. Eddembe lyonna.' })} | 
               <span className="italic ml-1">Obuganda bukyali bwannaa</span>
             </p>
           </div>
