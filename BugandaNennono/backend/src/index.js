@@ -11,22 +11,29 @@ const app = express()
 
 // Configure CORS to allow local dev and production frontends
 const frontendEnv = process.env.FRONTEND_URLS || ''
-const allowedOrigins = frontendEnv.split(',').map(s => s.trim()).filter(Boolean)
+let allowedOrigins = frontendEnv.split(',').map(s => s.trim()).filter(Boolean)
+
+// Provide sensible defaults if FRONTEND_URLS is not set (helps Render deploys)
+if (allowedOrigins.length === 0) {
+  allowedOrigins = [
+    'http://localhost:3000',
+    'https://buganda.netlify.app',
+    'https://bugandan-ennono.onrender.com'
+  ]
+}
 
 const corsOptions = {
   origin: function (origin, callback) {
-    // allow requests with no origin (like mobile apps or curl)
+    // allow requests with no origin (like curl or server-to-server)
     if (!origin) return callback(null, true)
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      return callback(null, true)
-    }
+    if (allowedOrigins.indexOf(origin) !== -1) return callback(null, true)
     return callback(new Error('CORS: Origin not allowed'))
   },
   credentials: true,
-  methods: ['GET','POST','PUT','DELETE','OPTIONS']
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }
 
-// handle special Private Network Access preflight header
+// handle special Private Network Access preflight header and ensure preflight responses include the header
 app.use((req, res, next) => {
   if (req.headers['access-control-request-private-network']) {
     res.setHeader('Access-Control-Allow-Private-Network', 'true')
@@ -34,7 +41,9 @@ app.use((req, res, next) => {
   next()
 })
 
+// Enable CORS and preflight responses
 app.use(cors(corsOptions))
+app.options('*', cors(corsOptions))
 app.use(express.json())
 
 const PORT = process.env.PORT || 4000
