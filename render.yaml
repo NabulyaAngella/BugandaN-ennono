@@ -3,7 +3,7 @@ services:
     name: buganda-backend
     env: node
     region: ohio
-    rootDir: backend
+    rootDir: BugandaNennono/backend
     buildCommand: npm install
     startCommand: npm start
     envVars:
@@ -17,7 +17,7 @@ services:
     name: buganda-frontend
     env: static
     region: ohio
-    rootDir: frontend
+    rootDir: BugandaNennono/frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     routes:

@@ -15,7 +15,7 @@ This guide walks you through deploying the Buganda project on Render.
 
 | Field | Value |
 |-------|-------|
-| **Root Directory** | `backend` |
+| **Root Directory** | `BugandaNennono/backend` |
 | **Build Command** | `npm install` |
 | **Start Command** | `npm start` |
 | **Instance Type** | Starter ($7/month) minimum for production |
@@ -50,7 +50,7 @@ FRONTEND_URL=https://your-frontend-domain.netlify.app
 
 | Field | Value |
 |-------|-------|
-| **Root Directory** | `frontend` |
+| **Root Directory** | `BugandaNennono/frontend` |
 | **Build Command** | `npm install && npm run build` |
 | **Publish Directory** | `dist` |
 | **Instance Type** | Free (static sites) |
