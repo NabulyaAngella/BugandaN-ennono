@@ -11,6 +11,8 @@ export default function AdminLogin() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
+  const API = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
@@ -18,7 +20,7 @@ export default function AdminLogin() {
 
     try {
       // Make API call to backend
-      const response = await fetch('http://localhost:4000/api/admin/login', {
+      const response = await fetch(`${API}/api/admin/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
+const API = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+
 export default function Shop() {
   const { t } = useLanguage()
   const [selectedCategory, setSelectedCategory] = useState('all')
@@ -83,7 +85,7 @@ export default function Shop() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:4000/api/products')
+        const response = await fetch(`${API}/api/products`)
         const data = await response.json()
         setProducts(data)
         setLoading(false)

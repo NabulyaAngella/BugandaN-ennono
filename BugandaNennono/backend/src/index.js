@@ -8,7 +8,33 @@ const exampleRoutes = require('./routes/example')
 dotenv.config({ path: path.resolve(__dirname, '../.env') })
 
 const app = express()
-app.use(cors())
+
+// Configure CORS to allow local dev and production frontends
+const frontendEnv = process.env.FRONTEND_URLS || ''
+const allowedOrigins = frontendEnv.split(',').map(s => s.trim()).filter(Boolean)
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    // allow requests with no origin (like mobile apps or curl)
+    if (!origin) return callback(null, true)
+    if (allowedOrigins.indexOf(origin) !== -1) {
+      return callback(null, true)
+    }
+    return callback(new Error('CORS: Origin not allowed'))
+  },
+  credentials: true,
+  methods: ['GET','POST','PUT','DELETE','OPTIONS']
+}
+
+// handle special Private Network Access preflight header
+app.use((req, res, next) => {
+  if (req.headers['access-control-request-private-network']) {
+    res.setHeader('Access-Control-Allow-Private-Network', 'true')
+  }
+  next()
+})
+
+app.use(cors(corsOptions))
 app.use(express.json())
 
 const PORT = process.env.PORT || 4000

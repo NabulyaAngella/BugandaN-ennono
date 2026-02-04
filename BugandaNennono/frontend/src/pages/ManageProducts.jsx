@@ -35,6 +35,8 @@ export default function ManageProducts() {
 
   const t = (translations) => translations[language] || translations.en;
 
+  const API = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+
   // Check authentication
   useEffect(() => {
     const token = localStorage.getItem('adminToken');
@@ -50,7 +52,7 @@ export default function ManageProducts() {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:4000/api/products');
+      const response = await fetch(`${API}/api/products`);
       const data = await response.json();
       setProducts(data);
       setLoading(false);
@@ -73,8 +75,8 @@ export default function ManageProducts() {
     
     try {
       const url = editingProduct 
-        ? `http://localhost:4000/api/products/${editingProduct._id}`
-        : 'http://localhost:4000/api/products';
+        ? `${API}/api/products/${editingProduct._id}`
+        : `${API}/api/products`;
       
       const method = editingProduct ? 'PUT' : 'POST';
       
@@ -127,7 +129,7 @@ export default function ManageProducts() {
     }
 
     try {
-      const response = await fetch(`http://localhost:4000/api/products/${id}`, {
+      const response = await fetch(`${API}/api/products/${id}`, {
         method: 'DELETE'
       });
 
