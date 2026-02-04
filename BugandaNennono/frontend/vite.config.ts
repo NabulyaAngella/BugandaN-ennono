@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 export default defineConfig({
-  base: '/The_royal_clan/',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -17,5 +17,10 @@ export default defineConfig({
   },
   server: {
     port: 3000
+  },
+  define: {
+    'import.meta.env.VITE_API_URL': JSON.stringify(
+      process.env.VITE_API_URL || 'http://localhost:5500'
+    )
   }
 })
